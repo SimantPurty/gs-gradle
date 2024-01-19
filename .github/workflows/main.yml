@@ -1,0 +1,9 @@
+name: Workflow
+
+on:
+  push: branches ["main"]
+  pull: branches ["master"]
+  
+jobs:
+  build:
+    run: echo "Build successfully"
